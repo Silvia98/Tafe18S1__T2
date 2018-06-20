@@ -324,6 +324,18 @@
             "assetType": "native",
             "rid": "osx-x64"
           },
+          "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          },
           "runtimes/win7-x64/native/sqlite3.dll": {
             "assetType": "native",
             "rid": "win7-x64"
@@ -2283,6 +2295,9 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -4077,6 +4092,9 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -5883,7 +5901,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "native": {
-          "runtimes/win7-x64/native/sqlite3.dll": {}
+          "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -7680,7 +7698,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "native": {
-          "runtimes/win7-x64/native/sqlite3.dll": {}
+          "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -9487,7 +9505,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "native": {
-          "runtimes/win7-x86/native/sqlite3.dll": {}
+          "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -11284,7 +11302,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "native": {
-          "runtimes/win7-x86/native/sqlite3.dll": {}
+          "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll": {}
         }
       },
       "SQLite.Net-PCL/3.1.1": {
@@ -12770,8 +12788,9 @@
   },
   "libraries": {
     "CrossPieCharts.UWP/1.0.2": {
-      "sha512": "i1wk9HbklmCpmszwXL27UuZ5MYD5rwgXvl+IBPI2E/+g4LE7IHIEbTH2Tb/ZTzgaxc+BTPVv4M7pSybpSq1K+A==",
+      "sha512": "aPMduo0K8U4uEZKS+7lJXnYWAkdNJ2UE0Qko9XfXai3/dtN1gPdjHM8te3zYOX2MPv1KPeG8HQgY5D8mM3xOhA==",
       "type": "package",
+      "path": "CrossPieCharts.UWP/1.0.2",
       "files": [
         "CrossPieCharts.UWP.1.0.2.nupkg.sha512",
         "CrossPieCharts.UWP.nuspec",
@@ -16159,5 +16178,7 @@
       "sqlite >= 3.13.0"
     ],
     "UAP,Version=v10.0": []
-  }
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
 }
